@@ -10,7 +10,7 @@ https://console.firebase.google.com/
 https://firebase.flutter.dev/docs/messaging/apple-integration#configuring-your-app
 
 5. Link APNs with FCM.
-https://developer.apple.com/account/resources/certificates/list
+https://firebase.flutter.dev/docs/messaging/apple-integration/#linking-apns-with-fcm
 
 
 
