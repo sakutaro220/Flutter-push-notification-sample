@@ -17,7 +17,7 @@ final logger = Logger(
 
 Future<void> backgroundHandler(RemoteMessage message) async {
   // ここでメッセージを処理します
-  print('background message ${message.data}');
+  logger.d('background message ${message.data}');
 }
 
 void main() async {
