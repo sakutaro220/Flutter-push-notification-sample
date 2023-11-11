@@ -15,6 +15,7 @@ final logger = Logger(
   ),
 );
 
+@pragma('vm:entry-point')
 Future<void> backgroundHandler(RemoteMessage message) async {
   // ここでメッセージを処理します
   logger.d('background message ${message.data}');
@@ -64,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     NotificationHandler.init();
-    listenNotifications();
+    // listenNotifications();
   }
 
   void listenNotifications() {
